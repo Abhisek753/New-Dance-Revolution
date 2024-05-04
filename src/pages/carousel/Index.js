@@ -7,13 +7,15 @@ const Index = () => {
         <Carousel 
        autoPlay={true}
         >
+                
                 <div>
-                    <img src="https://static.vecteezy.com/system/resources/previews/009/373/613/original/abstract-banner-design-with-silhouettes-of-people-dancing-free-vector.jpg" />
-                    <p className="legend">Legend 1</p>
+                    <img src="https://e1.pxfuel.com/desktop-wallpaper/529/1004/desktop-wallpaper-dance-dance-background-dance-poster-dancing-skills.jpg" />
                 </div>
                 <div>
-                    <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/choreographer-dance-facebook-banner-design-template-f604ba0dc5f9de1c53c2dfc5a9b639d5_screen.jpg?ts=1605652023" />
-                    <p className="legend">Legend 2</p>
+                    <img src="https://static.vecteezy.com/system/resources/previews/004/341/510/original/bellydance-free-class-banner-flat-template-brochure-poster-concept-design-with-cartoon-characters-exotic-dance-studio-lessons-horizontal-flyer-leaflet-with-place-for-text-vector.jpg" />
+                </div>
+                <div>
+                  <img src='https://cdn2.vectorstock.com/i/1000x1000/72/46/banner-for-the-dance-studio-vector-22757246.jpg'/>
                 </div>
                
             </Carousel>
