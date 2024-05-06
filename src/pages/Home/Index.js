@@ -1,6 +1,8 @@
 import React from 'react'
 import SharedCarousel from "../carousel/Index"
 import MySlider from '../slick-slider/Index'
+import DanceDescription from '../../components/description/Index';
+import Naveen from '../../components/naveen/Index';
 
 const Index = () => {
   const data1 = [
@@ -17,8 +19,9 @@ const Index = () => {
   return (
     <div className='home'>
       <SharedCarousel/>
+      <Naveen/>
       <MySlider data={data1} />
-
+      <DanceDescription/>
 
     </div>
   )
