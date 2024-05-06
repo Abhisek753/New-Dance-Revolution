@@ -27,7 +27,7 @@ const Naveen = () => {
         {/* Heading */}
         <div className="mb-4 justify-center flex flex-col text-center">
           <h2 className="text-2xl font-bold">Naveen Sir</h2>
-          <p className="text-lg">Subheading with around 20 words lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p className="text-lg">Step into the World of Bollywood Dance: Free Dance Steps Mastery with Naveen Sir, Your Guide with Over 15 Years of Experience in the Art of Dance.</p>
         </div>
         {/* Videos */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
