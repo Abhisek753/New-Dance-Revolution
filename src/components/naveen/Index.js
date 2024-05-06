@@ -32,7 +32,7 @@ const Naveen = () => {
         {/* Videos */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {/* Video 1 */}
-          <div className="md:col-span-1">
+          <div className="md:col-span-1 p-4">
             <iframe
               width="100%"
               height={iframeHeight}
@@ -43,7 +43,7 @@ const Naveen = () => {
             ></iframe>
           </div>
           {/* Video 2 */}
-          <div className="md:col-span-1">
+          <div className="md:col-span-1 p-4">
             <iframe
               width="100%"
               height={iframeHeight}
@@ -54,7 +54,7 @@ const Naveen = () => {
             ></iframe>
           </div>
           {/* Video 3 */}
-          <div className="md:col-span-1">
+          <div className="md:col-span-1 p-4">
             <iframe
               width="100%"
               height={iframeHeight}
