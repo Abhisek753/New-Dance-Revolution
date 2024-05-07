@@ -24,20 +24,16 @@ const Naveen = () => {
   return (
     <div className=" py-8 px-4">
       <div className=" md:mx-auto">
-        {/* Heading */}
         <div className="mb-4 justify-center flex flex-col text-center">
           <h2 className="text-2xl font-bold">Naveen Sir</h2>
           <p className="text-lg">Step into the World of Bollywood Dance: Free Dance Steps Mastery with Naveen Sir, Your Guide with Over 15 Years of Experience in the Art of Dance.</p>
         </div>
-        {/* Videos */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          {/* Video 1 */}
           <div className="md:col-span-1 p-4">
             <iframe
               width="100%"
               height={iframeHeight}
               src="https://www.instagram.com/p/CjFNC1ZqSE-/embed"
-              frameBorder="0"
               allowFullScreen
               title="Instagram Video 1"
             ></iframe>
@@ -48,18 +44,15 @@ const Naveen = () => {
               width="100%"
               height={iframeHeight}
               src="https://www.instagram.com/p/CpMqQikg26z/embed"
-              frameBorder="0"
               allowFullScreen
               title="Instagram Video 2"
             ></iframe>
           </div>
-          {/* Video 3 */}
           <div className="md:col-span-1 p-4">
             <iframe
               width="100%"
               height={iframeHeight}
               src="https://www.instagram.com/p/CkCu2KzJEVi/embed"
-              frameBorder="0"
               allowFullScreen
               title="Instagram Video 3"
             ></iframe>

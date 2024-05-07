@@ -13,6 +13,17 @@ const MySlider = ({ data }) => {
     slidesToScroll: 1,
     lazyLoad: true,
     autoplay: true,
+    centerMode: true,
+    centerPadding: '10px',
+    arrows: true,
+    responsive: [{
+      breakpoint: 600,
+      settings_3: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        initialSlide: 2
+      }
+    }]
   };
 
   return (
