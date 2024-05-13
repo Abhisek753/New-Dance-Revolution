@@ -3,6 +3,7 @@ import SharedCarousel from "../carousel/Index"
 import MySlider from '../slick-slider/Index'
 import DanceDescription from '../../components/description/Index';
 import Naveen from '../../components/naveen/Index';
+import DanceClassTimings from '../../components/timing/Index';
 
 const Index = () => {
   const data1 = [
@@ -21,6 +22,7 @@ const Index = () => {
       <SharedCarousel/>
       <Naveen/>
       <MySlider data={data1} />
+      <DanceClassTimings/>
       <DanceDescription/>
     </div>
   )

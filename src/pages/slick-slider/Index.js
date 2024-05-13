@@ -8,7 +8,7 @@ const MySlider = ({ data }) => {
     dots: true,
     infinite: true,
     autoplaySpeed: 2000,
-    slidesToShow: 1,
+    slidesToShow: 4,
     slidesToScroll: 1,
     slidesToScroll: 1,
     lazyLoad: true,
