@@ -1,6 +1,6 @@
 // src/pages/SignupPage.js
 import React, { useState } from 'react';
-import danceImage from "../../assets/dance1.png"
+import danceImage from "../../assets/dancer12.jpg"
 const SignupPage = () => {
   const [formData, setFormData] = useState({
     username: '',
@@ -31,7 +31,7 @@ const SignupPage = () => {
   };
 
   return (
-    <div className='w-full h-[90vh] py-12 '    style={{ backgroundImage:`url(${danceImage})`,
+    <div className='w-full  py-12 '    style={{ backgroundImage:`url(${danceImage})`,
     backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center'

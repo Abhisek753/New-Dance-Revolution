@@ -1,6 +1,6 @@
 // src/pages/LoginPage.js
 import React from 'react';
-import danceImage from "../../assets/dance1.png"
+import danceImage from "../../assets/dancer11.jpg"
 const LoginPage = () => {
   const handleGoogleLogin = () => {
     // Handle Google login functionality

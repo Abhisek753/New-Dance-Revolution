@@ -66,7 +66,7 @@ const Navbar = () => {
                 <Link to="/schedule" className="text-white hover:text-gray-300">Schedule</Link>
               </li>
               <li className="my-2">
-                <Link to="/about" className="text-white hover:text-gray-300">About</Link>
+                <a href="#about" className="text-white hover:text-gray-300">About</a>
               </li>
               {/* Add more menu items as needed */}
             </ul>

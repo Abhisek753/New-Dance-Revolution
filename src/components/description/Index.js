@@ -3,7 +3,7 @@ import dancerImage from "../../assets/dancer12.jpg"; // Import the dancer image
 
 const DanceDescription = () => {
   return (
-    <div className="container mx-auto flex flex-col md:flex-row items-center md:items-start md:justify-between py-8 px-8 mt-4">
+    <div id="about" className="container mx-auto flex flex-col md:flex-row items-center md:items-start md:justify-between py-8 px-8 mt-4">
       {/* Description Section */}
       <div className="md:w-1/2 md:pr-8">
         <h2 className="text-2xl font-bold mb-4 animate-bounce border-red-500 border-b-2 ">Description Heading</h2>
