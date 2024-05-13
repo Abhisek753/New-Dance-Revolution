@@ -1,7 +1,7 @@
-import React from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const MySlider = ({ data }) => {
   const settings = {
@@ -14,35 +14,52 @@ const MySlider = ({ data }) => {
     lazyLoad: true,
     autoplay: true,
     centerMode: true,
-    centerPadding: '10px',
+    centerPadding: "10px",
     arrows: true,
-    responsive: [{
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2,
-        initialSlide: 2
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint:441,
+        settings:{
+          slidesToShow:1,
+          slidesToScroll:1
+        }
       }
-    }]
+    ],
   };
 
   return (
-    <div className=''>
+    <div className="">
       <Slider {...settings}>
         {data.map((item, index) => (
-          <div key={index} >
-            <div  >
-            <img src={item.img} alt='img'  className="object-contain w-full h-full rounded-xl"/>
-
+          <div key={index}>
+            <div>
+              <img
+                src={item.img}
+                alt="img"
+                className="object-contain w-full h-full rounded-xl"
+              />
             </div>
-            <div className='flex justify-between'>
-            <h3>{item.title}</h3>
-            <h3 className='text-blue-500'><a target='_blank' href={item.profile}>Profile</a></h3>
+            <div className="flex justify-between">
+              <h3>{item.title}</h3>
+              <h3 className="text-blue-500">
+                <a target="_blank" href={item.profile}>
+                  Profile
+                </a>
+              </h3>
             </div>
           </div>
         ))}
       </Slider>
     </div>
   );
-}
+};
 
 export default MySlider;

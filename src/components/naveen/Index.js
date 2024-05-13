@@ -5,14 +5,15 @@ const Naveen = () => {
 
   const opts = {
     height: '350',
-    width: '450',
+    width: '400',
+    margin:"auto",
     playerVars: {
     },
   };
 
 
   return (
-    <div className=" py-8 px-4">
+    <div className=" py-8 ">
       <div className=" md:mx-auto">
         <div className="mb-4 justify-center flex flex-col text-center">
           <h2 className="text-2xl font-bold">Naveen Sir</h2>
