@@ -22,7 +22,6 @@ const Index = () => {
       <Naveen/>
       <MySlider data={data1} />
       <DanceDescription/>
-
     </div>
   )
 }

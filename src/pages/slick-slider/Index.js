@@ -8,7 +8,7 @@ const MySlider = ({ data }) => {
     dots: true,
     infinite: true,
     autoplaySpeed: 2000,
-    slidesToShow: 4,
+    slidesToShow: 1,
     slidesToScroll: 1,
     slidesToScroll: 1,
     lazyLoad: true,
@@ -17,8 +17,7 @@ const MySlider = ({ data }) => {
     centerPadding: '10px',
     arrows: true,
     responsive: [{
-      breakpoint: 600,
-      settings_3: {
+      settings: {
         slidesToShow: 2,
         slidesToScroll: 2,
         initialSlide: 2
